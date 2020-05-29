@@ -76,6 +76,8 @@ int main() {
 		i = i + 5;
 	}
 	delete[] REF_HIST;
+	cout << "X位置:" << nMinX << endl;
+	cout << "Y位置:" << nMinX;
 	Rect rect(nMinX, nMinY, nTplWidth, nTplHeight);
 	rectangle(rlMat, rect, Scalar(0, 255, 255), 2, 10, 0);
 	imshow("锁定后物体", rlMat);
